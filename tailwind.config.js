@@ -7,9 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "blue-light100": "var(--blue-light100)",
         "blue-light50": "var(--blue-light50)",
-        "blue-light500": "var(--blue-light500)",
         "blue-light600": "var(--blue-light600)",
         "brand-100": "var(--brand-100)",
         "brand-400": "var(--brand-400)",
@@ -29,17 +27,13 @@ module.exports = {
         "gray-700": "var(--gray-700)",
         "gray-800": "var(--gray-800)",
         "gray-900": "var(--gray-900)",
-        "material-themesyslighton-surface":
-          "var(--material-themesyslighton-surface)",
         "pink-200": "var(--pink-200)",
         "pink-600": "var(--pink-600)",
-        "primary-500": "var(--primary-500)",
         "rose-50": "var(--rose-50)",
         "rose-500": "var(--rose-500)",
         "rose-600": "var(--rose-600)",
         "secondary-50": "var(--secondary-50)",
         white: "var(--white)",
-        "white-1": "var(--white-1)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -84,7 +78,6 @@ module.exports = {
         "text-md-medium": "var(--text-md-medium-font-family)",
         "text-md-regular": "var(--text-md-regular-font-family)",
         "text-md-semibold": "var(--text-md-semibold-font-family)",
-        "text-medium-bold": "var(--text-medium-bold-font-family)",
         "text-sm-medium": "var(--text-sm-medium-font-family)",
         "text-sm-regular": "var(--text-sm-regular-font-family)",
         "text-sm-semibold": "var(--text-sm-semibold-font-family)",
@@ -102,8 +95,8 @@ module.exports = {
       },
       boxShadow: {
         "m3-elevation-light-1": "var(--m3-elevation-light-1)",
-        "shadow-lg": "var(--shadow-lg)",
         "shadow-md": "var(--shadow-md)",
+        "shadow-portfolio-mockup-md": "var(--shadow-portfolio-mockup-md)",
         "shadow-xs": "var(--shadow-xs)",
       },
       borderRadius: {
